@@ -1,0 +1,42 @@
+@media (min-width: 320px) and (max-width: 768px) {
+
+    header{
+        height: 80px;
+    }
+    .menu_header ul li:not(:last-child) {
+        margin-right: 0;
+    }
+    .menu_header{
+    display: none;
+
+  }
+
+  .burger_menu{
+    display: flex;
+  }
+
+  .button{
+    width: 290px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 930px){
+    .everything__wrapper{
+        flex-direction: column;
+    }
+    .everything_item{
+        margin: 0;
+    }
+    .everything_item .everything_item_element p,.everything_item .everything_item_element h4,.everything_item .everything_item_element span {
+        text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 1036px){
+    .showcase.right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
